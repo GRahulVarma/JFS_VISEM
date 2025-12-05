@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Course Registration Form</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+	<h2>Course Registration Form</h2>
+	<form id="regForm">
+		<label>Student Name:</label>
+		<input type="text" id="name" placeholder="Enter your name:">
+		<label>Select Subjects:</label>
+		<div class="subject list">
+		<div class="subject-list">
+			<label>
+				<input type="checkbox" class="subject" value="1000">Data Structures ($1000)
+            </label>
+            <label>
+                <input type="checkbox" class="subject" value="1200">Operating System ($1200)
+            </label>
+            <label>
+                <input type="checkbox" class="subject" value="1500">DBMS ($1500)
+            </label>
+            <label>
+                <input type="checkbox" class="subject" value="1800">Computer Networks ($1800)
+            </label>
+            <label>
+                <input type="checkbox" class="subject" value="2000">Java Programming ($2000)
+            </label>
+            <label>
+                <input type="checkbox" class="subject" value="2500">JFS ($2500)
+            </label>
+            <label>
+                <input type="checkbox" class="subject" value="3000">Competetive Programming ($3000)
+            </label>
+        </div>
+
+        <div class="total-box">
+            <h3>Total  Registration Fee: <span id="total">$0</span></h3>
+        </div>
+
+        <button type="button" id="calculateBtn">Calculate Total Fee</button>
+        <button type="submit" id="submitBtn">Submit Registration</button>
+    </form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

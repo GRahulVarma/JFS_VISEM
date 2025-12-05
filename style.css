@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(158, 96, 96, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+h3 {
+    color: #555;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px 0;
+    color: #333;
+    font-weight: 500;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+}
+
+.subject-list {
+    margin: 15px 0 20px 0;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+.subject-list label {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-weight: normal;
+}
+
+.subject-list input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+}
+
+.total-box {
+    background-color: #e8f5e9;
+    padding: 15px;
+    border-radius: 4px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.total-box h3 {
+    margin-top: 0;
+    color: #2e7d32;
+}
+
+#total {
+    font-weight: bold;
+    font-size: 18px;
+    color: #1b5e20;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#calculateBtn {
+    background-color: #2196F3;
+    color: white;
+}
+
+#calculateBtn:hover {
+    background-color: #0b7dda;
+}
+
+#submitBtn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#submitBtn:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    transform: scale(0.98);
+}
